@@ -43,7 +43,6 @@ section{
 }
 
 .div-intro.header{
-    border: 3px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,9 +52,7 @@ section{
 }
 
 .header-name-page{
-    border: 2px solid pink;
     margin: 0;
-    
     font-family: 'Montaga';
     font-style: normal;
     font-weight: 400;
@@ -64,7 +61,6 @@ section{
     color: #2B1105;
 }
 .part-text-header{
-    border: 2px solid pink;
     margin: 0;
     font-family: 'Montaga';
     font-style: normal;
