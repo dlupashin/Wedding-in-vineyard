@@ -296,3 +296,118 @@ section{
     gap: 32px;
 
 }
+
+.container__title {
+    display: inline-block;
+    margin: 96px auto 64px 80px;
+    font-size: 56px;
+    line-height: 100%;
+    color: #2B1105;
+}
+.container__content.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 96px;
+}
+
+.container__content.content:first-child{
+    align-items: flex-start;
+    
+}
+
+.content__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    gap: 32px;
+    width: 131px;
+    height: 85px;
+    
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0;
+    gap: 24px;
+}
+figcaption{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    text-align: center;
+    color: #2B1105;
+}
+
+.itinierary__title.title {
+    margin-top: 96px;
+    margin-bottom: 64px;
+}
+
+.title__title-section {
+    display: flex;
+    margin: 0 0;
+    justify-content:center;
+    font-size: 56px;
+    line-height: 100%;
+    color: #2B1105;
+}
+.itinierary__date.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 64px;
+    margin: 0 80px 64px;
+    
+    }
+
+.date__day {
+    font-size: 18px;
+    line-height: 100%;
+    color: #2B1105;
+    opacity: 0.6;
+}
+
+.itinierary__time.time {
+    display: flex;
+    gap: 64px;
+    margin: 0 276px 64px;
+}
+.time__time {
+    align-self: flex-start;
+    font-size: 24px;
+    line-height: 100%;
+    color: #C6754D;
+}
+.time__container.container  {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.container__event.event{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+}
+.event__title {
+    font-size: 32px;
+    line-height: 100%;
+    color: #2B1105;
+    margin: 0 0;
+}
+.event__description {
+    font-size: 18px;
+    line-height: 160%;
+    color: #2B1105;
+    opacity: 0.7;
+    margin: 0 0;
+}
